@@ -1,0 +1,24 @@
+x = 1 - exp(-2 x):  x* = 0.796812130020,  f'(x*) = 0.406376
+predicted optimal omega = f'/(1-f') = 0.6846
+
+(b) relaxation:     x = 0.79681263  in  14 iterations  (true error 5.0e-07)
+(c) overrelaxation:
+    omega = 0.25:  x = 0.79681274  in   9 iterations  (true error 6.1e-07)
+    omega = 0.50:  x = 0.79681237  in   4 iterations  (true error 2.4e-07)
+    omega = 0.60:  x = 0.79681203  in   5 iterations  (true error 1.0e-07)
+    omega = 0.65:  x = 0.79681183  in   4 iterations  (true error 3.0e-07)
+    omega = 0.70:  x = 0.79681211  in   4 iterations  (true error 2.2e-08)
+    omega = 0.80:  x = 0.79681163  in   5 iterations  (true error 5.0e-07)
+    omega = 1.00:  x = 0.79681252  in   8 iterations  (true error 3.9e-07)
+    omega = 1.50:  x = 0.79681124  in  17 iterations  (true error 8.9e-07)
+    fastest in the scan: omega = 0.72 with 3 iterations (vs 14 for plain relaxation)
+
+(d) x = cos x:  x* = 0.7390851332,  f'(x*) = -0.6736,  predicted optimal omega = -0.4025
+    omega =  0.50:  diverges (g = -1.510, |g| > 1)
+    omega =  0.20:  diverges (g = -1.008, |g| > 1)
+    omega =  0.00:  x = 0.73908600  in  32 iterations  (g = -0.674)
+    omega = -0.20:  x = 0.73908580  in  12 iterations  (g = -0.339)
+    omega = -0.30:  x = 0.73908538  in   8 iterations  (g = -0.172)
+    omega = -0.40:  x = 0.73908508  in   3 iterations  (g = -0.004)
+    omega = -0.60:  x = 0.73908551  in  12 iterations  (g = +0.331)
+    fastest in the scan: omega = -0.40 with 3 iterations

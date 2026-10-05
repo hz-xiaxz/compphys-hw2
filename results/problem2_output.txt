@@ -1,0 +1,5 @@
+(b) bisection on [1, 10] with eps = 1e-06: 24 steps
+    x  = 4.96511415   (bracket width 5.4e-07, true error 8.5e-08; reference x = 4.965114231744)
+    expected number of steps: ceil(log2((x2-x1)/eps)) = 24
+    b  = hc/(k_B x) = 2.8977720e-03 m K  (+- 3e-10; with exact x: 2.897771955e-03 m K)
+(c) lambda_max = 502 nm  ->  T_sun = b / lambda = 5772 K
